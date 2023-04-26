@@ -1,7 +1,6 @@
 from flask import Flask
 
 app = Flask(__name__)
-app.secret_key = 'Harry Potter was mid'
+app.secret_key = 'secret1234'
 
-# NEED TO CHANGE DATABASE
 DATABASE = 'users_schema'
